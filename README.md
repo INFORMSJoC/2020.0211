@@ -24,7 +24,7 @@ For licensing, see the LICENSE file. We emphasize that the user should respect t
 ## Instances
 This project contains four types of instances: Bimatrix, Constrained Bimatrix, Random Bilinear, and Convex Max. We explicitly mention the link between the data and the mathematical formulation for each class of instances here. Therefore, you can use Yalmip (https://yalmip.github.io/) and an appropriate solver to solve the instances.
 
-To use R4B, you need to reformulate instances to a bilinear problem. In the paper, we explain how to do so for the constrained bimatrix games and the convex maximization problems. 
+To use R4B, you need to reformulate instances to a bilinear problem. In the paper, we explain how to do so for the constrained bimatrix games and the convex maximization problems. Then, you can directly call ``R4B`` function.
 
 ### Bimatrix
 There are 50 randomly generated bimatrix games in this folder. Each of the instances contains *A_x* and *A_y*, which are the  payoff matrices of players, and *x_LH* and *y_LH*, which is a nash equiliburium. For the formulation of the optimization problem, see Problem (10) in the paper. 
@@ -50,7 +50,9 @@ We have implemeted the code for two classes of problems: bilinear optimization p
 
 For bilinear optimization problem, we have the function R4B inside the file R4B_linear. This function has the following form: 
 
+``
 [val,time,sol_x,sol_y,obj] = R4B(Q,A_x,b_x,A_y,b_y,tolerr,time_limit)
+``
 
 where *Q*, *A_x*, *b_x*, *A_y*, are *b_y* used in the definition of the optimization problem, *tolerr* is the relative optimality gap, and *time_limit* is the desired time limit. This function returns *val*, which is the obtained lowerbound, *time*, which is the solution time, *sol_x* and *sol_y* are the obtained solution, and *obj* is the obtained objective value. 
 
