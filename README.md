@@ -5,7 +5,22 @@
 
 ## Cite
 
-The final version of this repository, with updated bibliographical information, is available at [GitHub](https://github.com/INFORMSJoC/2020.0211).
+To cite this material, please cite this repository, using the following DOI.
+
+[![DOI](https://zenodo.org/badge/428188687.svg)](https://zenodo.org/badge/latestdoi/428188687)
+
+Below is the BibTex for citing this version of the code.
+
+```
+@article{DBOTSROA21,
+  author =        {N. Graham, H. Hu, J. Im, X. Li and H. Wolkowicz},
+  publisher =     {INFORMS Journal on Computing},
+  title =         {Disjoint Bilinear Optimization: A Two-stage Robust Optimization Perspective},
+  year =          {2021},
+  doi =           {10.5281/zenodo.5752594},
+  url =           {https://github.com/INFORMSJoC/2020.0221}
+}  
+```
 
 ## Table of content
 * [Requirements](#requirements)
