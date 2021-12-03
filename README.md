@@ -22,7 +22,9 @@ For this project, we use
 For licensing, see the LICENSE file. We emphasize that the user should respect the license of all the used sotfware, solvers, and packages. 
 
 ## Instances
-This project contains 4 types of instances: Bimatrix, Constrained Bimatrix, Random Bilinear, and Convex Max. 
+This project contains four types of instances: Bimatrix, Constrained Bimatrix, Random Bilinear, and Convex Max. We explicitly mention the link between the data and the mathematical formulation for each class of instances here. Therefore, you can use Yalmip (https://yalmip.github.io/) and an appropriate solver to solve the instances.
+
+To use R4B, you need to reformulate instances to a bilinear problem. In the paper, we explain how to do so for the constrained bimatrix games and the convex maximization problems. 
 
 ### Bimatrix
 There are 50 randomly generated bimatrix games in this folder. Each of the instances contains *A_x* and *A_y*, which are the  payoff matrices of players, and *x_LH* and *y_LH*, which is a nash equiliburium. For the formulation of the optimization problem, see Problem (10) in the paper. 
