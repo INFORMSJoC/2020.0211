@@ -19,6 +19,8 @@ For this project, we use
 * Gurobi (https://www.gurobi.com/) as the solver to solve Mixed Integer Linear Optimization problems
 * Mosek (https://www.mosek.com/) to solve the conic optimization problems 
 
+For licensing, see the LICENSE file. We emphasize that the user should respect the license of all the used sotfware, solvers, and packages. 
+
 ## Instances
 This project contains 4 types of instances: Bimatrix, Constrained Bimatrix, Random Bilinear, and Convex Max. 
 
