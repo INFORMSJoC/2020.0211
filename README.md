@@ -13,7 +13,7 @@ Below is the BibTex for citing this version of the code.
 
 ```
 @article{DBOTSROA21,
-  author =        {N. Graham, H. Hu, J. Im, X. Li and H. Wolkowicz},
+  author =        {J. Zhen, A. Marandi, D. de Moor, D. den Hertog, L. Vandenberghe},
   publisher =     {INFORMS Journal on Computing},
   title =         {Disjoint Bilinear Optimization: A Two-stage Robust Optimization Perspective},
   year =          {2021},
