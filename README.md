@@ -9,6 +9,9 @@ To cite this material, please cite this repository, using the following DOI.
 
 [![DOI](https://zenodo.org/badge/428188687.svg)](https://zenodo.org/badge/latestdoi/428188687)
 
+The software and data in this repository are a snapshot of the software and data
+that were used in the research reported in the paper [Disjoint Bilinear Optimization: A Two-stage Robust Optimization Perspective](https://doi.org/10.1287/ijoc.2022.1163) by Jianzhe Zhen, Ahmadreza Marandi, Danique de Moor, Dick den Hertog, and Lieven Vandenberghe.
+
 Below is the BibTex for citing this version of the code.
 
 ```
