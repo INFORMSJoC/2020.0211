@@ -21,7 +21,7 @@ Below is the BibTex for citing this version of the code.
   title =         {Disjoint Bilinear Optimization: A Two-stage Robust Optimization Perspective},
   year =          {2021},
   doi =           {10.5281/zenodo.5752594},
-  url =           {https://github.com/INFORMSJoC/2020.0221}
+  url =           {https://github.com/INFORMSJoC/2020.0211}
 }  
 ```
 
