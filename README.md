@@ -16,7 +16,7 @@ Below is the BibTex for citing this version of the code.
 @article{DBOTSROA21,
   author =        {J. Zhen, A. Marandi, D. de Moor, D. den Hertog, L. Vandenberghe},
   publisher =     {INFORMS Journal on Computing},
-  title =         {Disjoint Bilinear Optimization: A Two-stage Robust Optimization Perspective},
+  title =         {R4B (V2)},
   year =          {2021},
   doi =           {10.1287/ijoc.2022.1163.cd},
   url =           {https://github.com/INFORMSJoC/2020.0211}
